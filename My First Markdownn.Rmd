@@ -1,0 +1,40 @@
+---
+title: "My First Markdownn"
+author: "Christian Mendoza"
+date: "10/28/2020"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# R Markdown
+## R Markdown
+### R Markdown
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tristique, nisl eget sagittis malesuada, orci risus tempor justo, sit amet posuere elit nisi id nisi. Donec nec enim accumsan, pharetra mauris et, elementum mi. Maecenas non nunc non enim tincidunt finibus. 
+
+Curabitur et mauris nec ligula semper dapibus at ac sem. Vestibulum ut quam justo. Cras vel metus fermentum leo consequat bibendum. Nam at eros massa. Integer rhoncus, urna ut elementum bibendum, tortor erat malesuada magna, sed molestie urna justo fringilla quam. Vivamus vitae viverra augue. Ut dignissim dictum rhoncus. Nullam mattis a mi sit amet ullamcorper. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc dignissim nisi vel odio lobortis viverra. Aliquam ut dui nisl.
+
+```{r}
+print("This is my first markdown!")
+```
+
+Enumerate something:
+
+- Item1  
+- Item2  
+- Item3  
+
+**This is a bold text**
+*This is an italicized text*
+***This is a bold and italicized text***
+
+\textcolor{red}{red text}
+
+
+
+
+$f(x)=\frac{1}{\sqrt{2 \pi \sigma^{2}}} e^{-\frac{1}{2} \left(\frac{x-\mu}{\sigma}\right)^{2}}$
+
